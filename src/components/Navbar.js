@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#879bed'}}>
+    <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#e86c0e', zIndex: '100'}} >
       <div className="container-fluid">
         <a className="navbar-brand" style={{fontSize: '1.5rem'}} href="/">
             <strong>
@@ -63,9 +63,6 @@ const Navbar = () => {
                   </a>
                 </li>
               </ul>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
             </li>
           </ul>
           <form className="d-flex">

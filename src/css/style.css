@@ -34,6 +34,17 @@
     width: 100%;
     z-index: -10000;
 }
+.card-img{
+    background: url(../Images/card1.png)no-repeat center center/cover;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: 1px solid #0e83b5;
+    border-radius: 17px;
+}
 @media only screen and (max-width: 750px) {
     .header::before{
         background: url(../Images/header6.svg)no-repeat center center/cover;

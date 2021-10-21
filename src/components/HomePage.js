@@ -66,21 +66,27 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="container" style={{height: '80vh'}}>
+      <div className="container" style={{ height: "80vh" }}>
         <div className="row">
           <div className="col-md-4">
-            <div className="card card-img">
-              <h1>Hello!</h1>
+            <div className="row-md-1 m-3">
+              <div className="card card-img1">
+                <h1>Hello!</h1>
+              </div>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card card-img">
-              <h1>Hello!</h1>
+            <div className="row-md-4 m-3">
+              <div className="card card-img2">
+                <h1>Hello!</h1>
+              </div>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card card-img">
-              <h1>Hello!</h1>
+            <div className="row-md-4 m-3">
+              <div className="card card-img3">
+                <h1>Hello!</h1>
+              </div>
             </div>
           </div>
         </div>

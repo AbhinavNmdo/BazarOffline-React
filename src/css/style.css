@@ -34,8 +34,22 @@
     width: 100%;
     z-index: -10000;
 }
-.card-img{
-    background: url(../Images/card1.png)no-repeat center center/cover;
+.card-img1{
+    background: url(../Images/card2.png)no-repeat center center/cover;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img2{
+    background: url(../Images/card3.png)no-repeat center center/cover;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img3{
+    background: url(../Images/card5.svg)no-repeat center center/cover;
     height: 190px;
     display: flex;
     justify-content: center;
